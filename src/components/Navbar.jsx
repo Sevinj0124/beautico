@@ -22,7 +22,7 @@ qaraMenyu.current.classList.add("aktiv")
         <a href="">Contact</a>
     </nav>
     </div>
-    <nav className="navbar navbar-expand-lg  ">
+    <nav className="navbar navbar-expand-lg pt-3">
   <div className="container-fluid">
     <a className="navbar-brand" href="#"></a>
     <button onClick={menyunuAc} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
