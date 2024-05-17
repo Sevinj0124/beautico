@@ -1,8 +1,10 @@
-import React from 'react'
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar'
 const App = () => {
   return (
-    <div>App</div>
+    <div className='container'>
+<Navbar />
+    </div>
   )
 }
 
