@@ -2,6 +2,18 @@
     background-color: 
     #EDEBF7;
 }
-/* .intro .right-side img {
-    margin-left: 50px;
-} */
+ .logolar  img {
+ padding-left: 20px;
+ margin-top: 10px;
+ }
+.logolar h6 {
+    padding-left: 15px;
+}
+.shop-now {
+    background-color:#CF4D74;
+    border-radius: 25px;
+}
+.our-story {
+    background-color: #ffff;
+    border-radius: 25px;
+}

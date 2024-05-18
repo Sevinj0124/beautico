@@ -23,7 +23,7 @@ qaraMenyu.current.classList.add("aktiv")
     </nav>
     </div>
     <nav className="navbar navbar-expand-lg pt-3">
-  <div className="container-fluid">
+  <div className="container">
     <a className="navbar-brand" href="#"></a>
     <button onClick={menyunuAc} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -50,6 +50,11 @@ qaraMenyu.current.classList.add("aktiv")
     </div>
   </div>
 </nav>
+{/* <div className="butonlar">
+<button className='cart border-0'>Cart</button>
+<button className='subscribe'>Subscribe</button>
+</div> */}
+
 </>
   )
 }
