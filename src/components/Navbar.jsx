@@ -2,6 +2,7 @@ import React from 'react'
 import { MdClose } from "react-icons/md";
 import './Navbar.css'
 import { useRef } from "react";
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     const qaraMenyu = useRef ()
     const menyunuAc = () => {
@@ -24,26 +25,26 @@ qaraMenyu.current.classList.add("aktiv")
     </div>
     <nav className="navbar navbar-expand-lg pt-3">
   <div className="container">
-    <a className="navbar-brand" href="#"></a>
+    <Link className="navbar-brand" to="/"></Link>
     <button onClick={menyunuAc} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse " id="navbarNav">
       <ul className="navbar-nav ">
         <li className="nav-item">
-          <a className="nav-link active text-secondary" aria-current="page" href="#">Products</a>
+          <Link className="nav-link active text-secondary" aria-current="page" to="/Products">Products</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active text-secondary" aria-current="page" href="#">Story</a>
+          <Link className="nav-link active text-secondary" aria-current="page" to="/Story">Story</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active text-secondary" aria-current="page" href="#">Blog</a>
+          <Link className="nav-link active text-secondary" aria-current="page" to="/Blog">Blog</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active text-secondary" aria-current="page" href="#">Collections</a>
+          <Link className="nav-link active text-secondary" aria-current="page" to="/Collections">Collections</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active text-secondary" aria-current="page" href="#">Contact</a>
+          <Link className="nav-link active text-secondary" aria-current="page" to="/Contact">Contact</Link>
         </li>
     
       </ul>
