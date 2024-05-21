@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navbar'
-import ArticlesSection from './components/ArticlesSection'
+import Cards from './components/containers/Cards'
 import Footer from './components/Footer'
 
 

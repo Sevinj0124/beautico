@@ -28,7 +28,7 @@ Minimal Square.Powered by Webflow
 
     </div>
 </div>
-    // </div>
+     </div>
   )
 }
 

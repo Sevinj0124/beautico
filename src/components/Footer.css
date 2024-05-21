@@ -10,7 +10,9 @@
 }
 .footer-icons h4 {
     text-align: right;
+
 }
+
 .footer {
     display: flex;
     flex-direction: column;

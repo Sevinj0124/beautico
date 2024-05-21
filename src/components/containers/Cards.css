@@ -1,0 +1,18 @@
+.card {
+    border: 0;
+    background-color: #F3F5F7 ;
+}
+.knopka {
+
+    background-color: #ffff;
+    border-radius: 60px;
+    padding:10px;
+    border-color: 
+    #CDD5DF;
+
+}
+.cards-two button {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #ffff;
+}

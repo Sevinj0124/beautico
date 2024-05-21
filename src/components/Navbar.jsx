@@ -32,6 +32,9 @@ qaraMenyu.current.classList.add("aktiv")
     <div className="collapse navbar-collapse " id="navbarNav">
       <ul className="navbar-nav ">
         <li className="nav-item">
+          <Link className="nav-link active text-secondary" aria-current="page" to="/">Home</Link>
+        </li>
+        <li className="nav-item">
           <Link className="nav-link active text-secondary" aria-current="page" to="/Products">Products</Link>
         </li>
         <li className="nav-item">
