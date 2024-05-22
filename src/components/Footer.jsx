@@ -8,7 +8,7 @@ const Footer = () => {
     <p className='text-secondary text-right mt-2'>© Beautico by
 Minimal Square.Powered by Webflow
 .</p>
-    <div className="col-12 col-md-4">
+    <div className="col-12 col-md-4 ">
         <div className="footer-icons  ">
             <h4 className='text-dark justify-content-center '>Follow us</h4>
             <div className="icons d-flex gap-3">

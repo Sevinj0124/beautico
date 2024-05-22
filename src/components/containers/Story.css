@@ -1,0 +1,45 @@
+.how-it-works {
+    border-radius: 20px;
+    background-color:  #EDEBF7;
+    ;
+}
+.story-icons h4 {
+    padding-top: 20px;
+}
+.story-icons {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.story-icons img {
+    margin-left: 45px;
+}
+
+
+
+
+
+.oily {
+    display: flex ;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.smooth {
+    border-radius: 20px;
+    background-color: #EDEBF7;
+
+}
+
+.shop {
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.explore {
+    border-radius: 20px;
+    border: 0;
+    background-color: #fff;
+}
+
+
+
