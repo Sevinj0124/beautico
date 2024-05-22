@@ -1,0 +1,19 @@
+.view {
+    border-radius: 20px;
+    background-color: #fff;
+    border-color:grey;
+        border: 5px;
+    margin-top: 150px;
+    margin-left: 320px;
+}
+.posts{
+    background-color: #CDD5DF;
+    border-radius: 20px;
+    border: 0;
+    text-decoration-color:  #3C2769;
+    ;
+}
+.buton {
+    border-radius: 20px;
+    border: 0;
+}

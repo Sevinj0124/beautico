@@ -30,33 +30,36 @@ const Story = () => {
       </div>
     </div>
 
-<div className="row">
-<div className="col-12 col-md-6 col-lg-6">
-
-<div className="oily p-4 d-flex ">
-  <img  src="/assets/images/oilyskin.svg" alt="" />
-  <div className="right-side">
-  <button className='smooth py-2'>Smooth skin collection </button>
-  <h2>For oily face skin</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit  <br />suspendisse Varius enim in eros elementum tristique, duis cursus  <br />mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
+  <section className='row'>
+<div className="left-side col-12 col-md-6 col-lg-6">
+<img  src="/assets/images/oilyskin.svg" alt="" />
+</div>
+<div className="right-side col-12 col-md-6 col-lg-6 py-5">
+<button className='smooth py-2'>Smooth skin collection </button>
+  <h2 className='py-3'>For oily face skin</h2>
+  <p className='text-secondary py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit  <br />suspendisse Varius enim in eros elementum tristique, duis cursus  <br />mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
 <button className='shop  p-2'>Shop now</button>
 <button className='explore p-2'>Explore more  </button>
-    </div>
- 
-</div>
+</div> 
+  </section>
 
-<div className="body-skin p-4 d-lex">
-  <div className="left-side">
-  <button className='healthy py-2'>Healthy tanning collection</button>
-  <h2>For body skin</h2>
-  <p className='text-secondary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit  <br />suspendisse Varius enim in eros elementum tristique, duis cursus  <br />mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
+<section className='row'>
+<div className="left-side col-12 col-md-6 col-lg-6 p-5">
+<button className='healthy py-2'>Healthy tanning collection</button>
+  <h2 className='py-3'>For body skin</h2>
+  <p className='text-secondary py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit  <br />suspendisse Varius enim in eros elementum tristique, duis cursus  <br />mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
 <button className='shop p-2'>Shop now</button>
 <button className='explore p-2'>Explore more</button>
-  </div>
+</div> 
+<div className="right-side col-12 col-md-6 col-lg-6">
 <img src="/assets/images/bodyskin.svg" alt="" />
 </div>
-</div>
-</div>
+
+</section>
+
+
+
+
 
     </>
   )
