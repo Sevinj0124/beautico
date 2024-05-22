@@ -30,7 +30,8 @@ const Story = () => {
       </div>
     </div>
 
-
+<div className="row">
+<div className="col-12 col-md-6 col-lg-6">
 
 <div className="oily p-4 d-flex ">
   <img  src="/assets/images/oilyskin.svg" alt="" />
@@ -44,6 +45,18 @@ const Story = () => {
  
 </div>
 
+<div className="body-skin p-4 d-lex">
+  <div className="left-side">
+  <button className='healthy py-2'>Healthy tanning collection</button>
+  <h2>For body skin</h2>
+  <p className='text-secondary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit  <br />suspendisse Varius enim in eros elementum tristique, duis cursus  <br />mi quis viverra ornare, eros dolor interdum nulla ut commodo.</p>
+<button className='shop p-2'>Shop now</button>
+<button className='explore p-2'>Explore more</button>
+  </div>
+<img src="/assets/images/bodyskin.svg" alt="" />
+</div>
+</div>
+</div>
 
     </>
   )
