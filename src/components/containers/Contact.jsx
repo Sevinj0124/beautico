@@ -10,8 +10,10 @@ const Contact = () => {
 <button className='contact p-2 text-white'>Contact us</button>
       </div>
 
-      <div className="right-side col-12 col-md-6 col-lg-6">
-
+      <div className="right-side col-12 col-md-6 col-lg-6 py-5">
+<h6 className='text-secondary'> Join our newsletter to stay up to date on features and releases.</h6>
+<input  className="p-2" type="text" />
+<button className='subscribe p-2 text-white'>Subscribe</button>
       </div>
 
     </div>
